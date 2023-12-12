@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { navLinks } from "../data/index.js";
@@ -9,39 +9,60 @@ const NavbarComponent = () => {
 
   const changeBackgroundColor = () => {
     if (window.scrollY > 10) {
-      setChangeColor(true)
+      setChangeColor(true);
     } else {
-      setChangeColor(false)
+      setChangeColor(false);
     }
   };
 
   useEffect(() => {
     changeBackgroundColor();
-    window.addEventListener("scroll", changeBackgroundColor)
+    window.addEventListener("scroll", changeBackgroundColor);
   }, []);
+
+  const [expanded, setExpanded] = useState(false);
+
+  const closeNavbar = () => {
+    setTimeout(() => {
+      setExpanded(false);
+    }, 100);
+  };
 
   return (
     <div>
-      <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
+      <Navbar
+        expanded={expanded}
+        expand="lg"
+        className={changeColor ? "color-active" : ""}
+      >
         <Container>
-          <Navbar.Brand href="#home" className="fs-3 fw-bold">JUNSTORE</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Brand href="/" className="fs-3 fw-bold">
+            JUNSTORE
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={() => setExpanded(!expanded)}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto text-center">
               {navLinks.map((link) => {
                 return (
                   <div className="nav-link" key={link.id}>
-                    <NavLink to={link.path}
+                    <NavLink
+                      to={link.path}
+                      onClick={closeNavbar}
                       className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "active" : ""} end>
+                        isPending ? "pending" : isActive ? "active" : "" } end>
                       {link.text}
                     </NavLink>
                   </div>
                 );
               })}
             </Nav>
-            <div className="text-center">
-              <button className="btn btn-outline-dark rounded-1">Join With Us</button>
+            <div className="text-center mb-3 mt-3">
+              <button className="btn btn-outline-dark rounded-1">
+                Join With Us
+              </button>
             </div>
           </Navbar.Collapse>
         </Container>

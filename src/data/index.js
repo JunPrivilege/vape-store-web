@@ -55,7 +55,7 @@ export const semuaProduct = [
     title: "Savage - Ekoju",
     price: "Rp. 140.000",
     buy: "Beli Product",
-    delay: "1300",
+    delay: "1200",
   },
   {
     id: 2,
@@ -68,7 +68,7 @@ export const semuaProduct = [
     title: "Creamsie Whimsie - Danzel & Lilo",
     price: "Rp. 125.000",
     buy: "Beli Product",
-    delay: "1600",
+    delay: "1400",
   },
   {
     id: 3,
@@ -81,7 +81,7 @@ export const semuaProduct = [
     title: "Grooven - Xinn",
     price: "Rp. 130.000",
     buy: "Beli Product",
-    delay: "1900",
+    delay: "1600",
   },
   {
     id: 4,
@@ -94,7 +94,7 @@ export const semuaProduct = [
     title: "Paradewa - Corygore",
     price: "Rp. 135.000",
     buy: "Beli Product",
-    delay: "",
+    delay: "1600",
   },
   {
     id: 5,
@@ -107,7 +107,7 @@ export const semuaProduct = [
     title: "Muffin & Xes - Reza Arap",
     price: "Rp. 145.000",
     buy: "Beli Product",
-    delay: "300",
+    delay: "200",
   },
   {
     id: 6,
@@ -120,7 +120,7 @@ export const semuaProduct = [
     title: "Eskrim Mall - Martinus Salim",
     price: "Rp. 145.000",
     buy: "Beli Product",
-    delay: "600",
+    delay: "400",
   },
   {
     id: 7,
@@ -133,7 +133,7 @@ export const semuaProduct = [
     title: "SMOK",
     price: "Rp. 300.000",
     buy: "Beli Product",
-    delay: "",
+    delay: "600",
   },
   {
     id: 8,
@@ -146,7 +146,7 @@ export const semuaProduct = [
     title: "Caliburn",
     price: "Rp. 340.000",
     buy: "Beli Product",
-    delay: "300",
+    delay: "",
   },
   {
     id: 9,
@@ -159,7 +159,7 @@ export const semuaProduct = [
     title: "VMATE",
     price: "Rp. 180.000",
     buy: "Beli Product",
-    delay: "600",
+    delay: "200",
   },
   {
     id: 10,
@@ -172,7 +172,7 @@ export const semuaProduct = [
     title: "Centaurus",
     price: "Rp. 600.000",
     buy: "Beli Product",
-    delay: "600",
+    delay: "400",
   },
   {
     id: 11,
@@ -198,7 +198,7 @@ export const semuaProduct = [
     title: "JellyBox",
     price: "Rp. 170.000",
     buy: "Beli Product",
-    delay: "600",
+    delay: "",
   },
 ];
 
@@ -253,7 +253,7 @@ export const productTerbaru = [
     title: "Paradewa - Corygore",
     price: "Rp. 135.000",
     buy: "Beli Product",
-    delay: "",
+    delay: "600",
   },
   {
     id: 5,
@@ -398,49 +398,49 @@ export const faq = [
   {
     id: 1,
     eventKey: 0,
-    title: "Apakah ini Berlangganan?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Apakah ada rekomendasi untuk penyimpanan yang aman dan efektif?",
+    desc: "Simpan produk vape Anda di tempat yang kering dan sejuk, jauh dari sinar matahari langsung. Pastikan untuk menyimpan bahan-bahan dengan benar dan jauh dari jangkauan anak-anak.",
   },
   {
     id: 2,
     eventKey: 1,
-    title: "Bagaimana Sistem Belajarnya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Bagaimana cara pembayaran untuk pesanan online?",
+    desc: "Bisa langsung order di website kami, nanti barang akan langsung di proses"
   },
   {
     id: 3,
     eventKey: 2,
-    title: "Apakah Boleh di Share ke Orang Lain?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Berapa lama waktu pengiriman yang dapat diharapkan?",
+    desc: "Secepatnya",
   },
   {
     id: 4,
     eventKey: 3,
-    title: "Apakah Ada Grup Diskusi?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Apa yang harus dilakukan jika produk yang saya terima rusak atau tidak berfungsi dengan baik?",
+    desc: "Jika Anda mengalami masalah dengan produk yang Anda terima, segera hubungi layanan pelanggan kami. Kami akan dengan senang hati membantu Anda mengatasi masalah tersebut, mungkin dengan penggantian atau pengembalian dana sesuai kebijakan kami.",
   },
   {
     id: 5,
     eventKey: 4,
-    title: "Apakah dapat di Akses Selamanya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Apakah produk-produk ini aman digunakan?",
+    desc: "Ya, semua produk kami telah melewati uji keamanan dan memenuhi standar keamanan industri. Pastikan untuk mengikuti petunjuk penggunaan dengan cermat untuk pengalaman yang aman.",
   },
   {
     id: 6,
     eventKey: 5,
-    title: "Apakah ada Mentornya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Bagaimana cara membersihkan dan merawat vaporizer dengan benar?",
+    desc: "Petunjuk perawatan lengkap dapat ditemukan di buku panduan penggunaan yang disertakan. Namun, secara umum, membersihkan vaporizer secara teratur dengan menggunakan pembersih khusus dapat menjaga kinerja dan kebersihan perangkat."
   },
   {
     id: 7,
     eventKey: 6,
-    title: "Apakah Saya Boleh Mendownload Videonya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Bagaimana cara memilih rasa liquid vape yang sesuai dengan preferensi saya?",
+    desc: "Ada berbagai macam rasa cairan vape yang tersedia. Kami merekomendasikan mencoba beberapa pilihan untuk menentukan preferensi Anda. Beberapa pelanggan kami juga menemukan berguna untuk membaca ulasan produk."
   },
   {
     id: 8,
     eventKey: 7,
     title: "Apakah boleh ganti Product ketika sudah Membeli?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    desc: "Ya, tentu anda bisa menukarnya kembali sebelum satu hari pembelian dan segel tidak dilepas",
   },
 ];
